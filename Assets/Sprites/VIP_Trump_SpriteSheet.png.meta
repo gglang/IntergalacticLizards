@@ -1,0 +1,303 @@
+fileFormatVersion: 2
+guid: c749cd1ea360c46fb908a9f02ec1cbe7
+timeCreated: 1460824477
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: VIP_Trump_SpriteSheet_0
+    21300002: VIP_Trump_SpriteSheet_1
+    21300004: VIP_Trump_SpriteSheet_2
+    21300006: VIP_Trump_SpriteSheet_3
+    21300008: VIP_Trump_SpriteSheet_4
+    21300010: VIP_Trump_SpriteSheet_5
+    21300012: VIP_Trump_SpriteSheet_6
+    21300014: VIP_Trump_SpriteSheet_7
+    21300016: VIP_Trump_SpriteSheet_8
+    21300018: VIP_Trump_SpriteSheet_9
+    21300020: VIP_Trump_SpriteSheet_10
+    21300022: VIP_Trump_SpriteSheet_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 72
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: VIP_Trump_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 961
+        width: 68
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 49}
+        - {x: -26, y: 49}
+        - {x: -34, y: 46}
+        - {x: -34, y: -25}
+        - {x: -15, y: -49}
+        - {x: 21, y: -49}
+        - {x: 34, y: -26}
+        - {x: 34, y: 44}
+        - {x: 33, y: 47}
+    - name: VIP_Trump_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 966
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 37.5}
+        - {x: 17, y: 44.5}
+        - {x: 15, y: 45.5}
+        - {x: -8, y: 45.5}
+        - {x: -14, y: 41.5}
+        - {x: -32, y: 30.5}
+        - {x: -32, y: -12.5}
+        - {x: -25, y: -45.5}
+        - {x: 13, y: -45.5}
+        - {x: 32, y: -20.5}
+        - {x: 32, y: 32.5}
+    - name: VIP_Trump_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 969
+        width: 64
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 44.5}
+        - {x: -11, y: 44.5}
+        - {x: -20, y: 40.5}
+        - {x: -32, y: 27.5}
+        - {x: -32, y: -11.5}
+        - {x: -26, y: -44.5}
+        - {x: 20, y: -44.5}
+        - {x: 32, y: -23.5}
+        - {x: 32, y: 34.5}
+        - {x: 31, y: 41.5}
+    - name: VIP_Trump_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 964
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 45.5}
+        - {x: -35.5, y: 29.5}
+        - {x: -35.5, y: 3.5}
+        - {x: -9.5, y: -45.5}
+        - {x: 17.5, y: -45.5}
+        - {x: 35.5, y: -7.5}
+        - {x: 35.5, y: 29.5}
+        - {x: 26.5, y: 45.5}
+    - name: VIP_Trump_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 960
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 45.5}
+        - {x: -32, y: 36.5}
+        - {x: -32, y: -13.5}
+        - {x: -27, y: -34.5}
+        - {x: -24, y: -43.5}
+        - {x: -21, y: -45.5}
+        - {x: 17, y: -45.5}
+        - {x: 32, y: -15.5}
+        - {x: 32, y: 37.5}
+        - {x: 31, y: 45.5}
+    - name: VIP_Trump_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 959
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 47.5}
+        - {x: -36, y: 39.5}
+        - {x: -36, y: -9.5}
+        - {x: -20, y: -47.5}
+        - {x: 18, y: -47.5}
+        - {x: 36, y: 8.5}
+        - {x: 36, y: 38.5}
+        - {x: 32, y: 47.5}
+    - name: VIP_Trump_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 839
+        width: 72
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31, y: 48.5}
+        - {x: -36, y: 44.5}
+        - {x: -36, y: -11.5}
+        - {x: -16, y: -48.5}
+        - {x: 20, y: -48.5}
+        - {x: 36, y: -22.5}
+        - {x: 36, y: 42.5}
+        - {x: 22, y: 48.5}
+    - name: VIP_Trump_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 846
+        width: 71
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 47.5}
+        - {x: -35.5, y: 38.5}
+        - {x: -35.5, y: -11.5}
+        - {x: -27.5, y: -47.5}
+        - {x: 35.5, y: -47.5}
+        - {x: 35.5, y: 47.5}
+    - name: VIP_Trump_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 849
+        width: 72
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 46.5}
+        - {x: -36, y: -22.5}
+        - {x: -33, y: -46.5}
+        - {x: 25, y: -46.5}
+        - {x: 34, y: -42.5}
+        - {x: 36, y: -32.5}
+        - {x: 36, y: 44.5}
+        - {x: 31, y: 46.5}
+    - name: VIP_Trump_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 839
+        width: 72
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 47.5}
+        - {x: -36, y: -47.5}
+        - {x: 35, y: -47.5}
+        - {x: 36, y: -40.5}
+        - {x: 36, y: 39.5}
+        - {x: 28, y: 47.5}
+    - name: VIP_Trump_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 839
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 47}
+        - {x: -32, y: 33}
+        - {x: -32, y: -9}
+        - {x: -28, y: -37}
+        - {x: -24, y: -47}
+        - {x: 8, y: -47}
+        - {x: 32, y: -25}
+        - {x: 32, y: 46}
+        - {x: 27, y: 47}
+    - name: VIP_Trump_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 839
+        width: 74
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 46}
+        - {x: -20, y: 46}
+        - {x: -37, y: 36}
+        - {x: -37, y: -13}
+        - {x: -27, y: -46}
+        - {x: 10, y: -46}
+        - {x: 37, y: -9}
+        - {x: 37, y: 35}
+        - {x: 34, y: 42}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
