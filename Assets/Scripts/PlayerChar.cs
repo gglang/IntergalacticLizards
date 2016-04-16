@@ -30,7 +30,7 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 		directionX = horizontalAxis == 0 ? directionX:horizontalAxis;
 		directionY = verticalAxis == 0 ? directionY:verticalAxis;
 		directionVector = new Vector2(directionX,directionY);
-		Debug.DrawRay(transform.position,directionVector);
+		Debug.DrawRay(transform.position ,directionVector);
 	//	Debug.Log("Horizontal Axis: " + horizontalAxis + " Vertical Axis: " + verticalAxis);
 		transform.position += (Vector3.right * speed * Time.deltaTime * horizontalAxis) + (Vector3.up * speed * Time.deltaTime * verticalAxis);
 		transform.localScale = new Vector3(Mathf.Sign(directionX),1);
@@ -38,7 +38,7 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 
 	public virtual void Action(){
 	//	Debug.Log("Attack");
-		RaycastHit2D hit = Physics2D.Raycast(transform.position,directionVector,1);
+		RaycastHit2D hit = Physics2D.Raycast(transform.position ,directionVector,1);
 
 		if(hit.transform != null){
 //			Debug.Log(hit.transform.gameObject.name);
