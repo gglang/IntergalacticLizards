@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: c749cd1ea360c46fb908a9f02ec1cbe7
-timeCreated: 1460824477
+timeCreated: 1460827897
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -16,6 +16,10 @@ TextureImporter:
     21300018: VIP_Trump_SpriteSheet_9
     21300020: VIP_Trump_SpriteSheet_10
     21300022: VIP_Trump_SpriteSheet_11
+    21300024: VIP_Trump_SpriteSheet_12
+    21300026: VIP_Trump_SpriteSheet_13
+    21300028: VIP_Trump_SpriteSheet_14
+    21300030: VIP_Trump_SpriteSheet_15
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
