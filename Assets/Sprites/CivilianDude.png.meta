@@ -1,0 +1,670 @@
+fileFormatVersion: 2
+guid: 384161de850684302a5014df6917eabf
+timeCreated: 1460838286
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CivilianDude_0
+    21300002: CivilianDude_1
+    21300004: CivilianDude_2
+    21300006: CivilianDude_3
+    21300008: CivilianDude_4
+    21300010: CivilianDude_5
+    21300012: CivilianDude_6
+    21300014: CivilianDude_7
+    21300016: CivilianDude_8
+    21300018: CivilianDude_9
+    21300020: CivilianDude_10
+    21300022: CivilianDude_11
+    21300024: CivilianDude_12
+    21300026: CivilianDude_13
+    21300028: CivilianDude_14
+    21300030: CivilianDude_15
+    21300032: CivilianDude_16
+    21300034: CivilianDude_17
+    21300036: CivilianDude_18
+    21300038: CivilianDude_19
+    21300040: CivilianDude_20
+    21300042: CivilianDude_21
+    21300044: CivilianDude_22
+    21300046: CivilianDude_23
+    21300048: CivilianDude_24
+    21300050: CivilianDude_25
+    21300052: CivilianDude_26
+    21300054: CivilianDude_27
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 72
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: CivilianDude_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 900
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 58}
+        - {x: -34.5, y: 53}
+        - {x: -34.5, y: -58}
+        - {x: 34.5, y: -58}
+        - {x: 34.5, y: 47}
+        - {x: 27.5, y: 58}
+    - name: CivilianDude_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 899
+        width: 72
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33, y: 58.5}
+        - {x: -36, y: 55.5}
+        - {x: -36, y: -54.5}
+        - {x: -34, y: -58.5}
+        - {x: 36, y: -58.5}
+        - {x: 36, y: 58.5}
+    - name: CivilianDude_2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 900
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 57.5}
+        - {x: -34.5, y: 55.5}
+        - {x: -34.5, y: -57.5}
+        - {x: 34.5, y: -57.5}
+        - {x: 34.5, y: 53.5}
+        - {x: 32.5, y: 57.5}
+    - name: CivilianDude_3
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 900
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 58}
+        - {x: -34.5, y: 52}
+        - {x: -34.5, y: -56}
+        - {x: -32.5, y: -58}
+        - {x: 34.5, y: -58}
+        - {x: 34.5, y: 49}
+        - {x: 29.5, y: 58}
+    - name: CivilianDude_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 774
+        width: 72
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 59}
+        - {x: -36, y: 53}
+        - {x: -36, y: -59}
+        - {x: 33, y: -59}
+        - {x: 33, y: 51}
+        - {x: 19, y: 59}
+      - - {x: 32, y: 21}
+        - {x: 32, y: 14}
+        - {x: 34, y: 12}
+        - {x: 36, y: 12}
+        - {x: 36, y: 24}
+        - {x: 35, y: 24}
+    - name: CivilianDude_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 774
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 58}
+        - {x: -36, y: -58}
+        - {x: 33, y: -58}
+        - {x: 33, y: 58}
+      - - {x: 32, y: 22}
+        - {x: 32, y: 15}
+        - {x: 34, y: 13}
+        - {x: 36, y: 13}
+        - {x: 36, y: 25}
+        - {x: 35, y: 25}
+    - name: CivilianDude_6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 774
+        width: 74
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 59}
+        - {x: -26, y: 58}
+        - {x: -37, y: 44}
+        - {x: -37, y: -53}
+        - {x: -36, y: -59}
+        - {x: 34, y: -59}
+        - {x: 34, y: 44}
+        - {x: 18, y: 59}
+      - - {x: 33, y: 21}
+        - {x: 33, y: 14}
+        - {x: 35, y: 12}
+        - {x: 37, y: 12}
+        - {x: 37, y: 24}
+        - {x: 36, y: 24}
+    - name: CivilianDude_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 774
+        width: 72
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 59}
+        - {x: -36, y: 44}
+        - {x: -36, y: -51}
+        - {x: -29, y: -59}
+        - {x: 27, y: -59}
+        - {x: 33, y: -49}
+        - {x: 33, y: 47}
+        - {x: 25, y: 59}
+      - - {x: 32, y: 21}
+        - {x: 32, y: 14}
+        - {x: 34, y: 12}
+        - {x: 36, y: 12}
+        - {x: 36, y: 24}
+        - {x: 35, y: 24}
+    - name: CivilianDude_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 644
+        width: 74
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 58}
+        - {x: -34, y: -58}
+        - {x: 35, y: -58}
+        - {x: 37, y: -52}
+        - {x: 37, y: 52}
+        - {x: 33, y: 58}
+      - - {x: -37, y: 25}
+        - {x: -37, y: 13}
+        - {x: -35, y: 13}
+        - {x: -33, y: 15}
+        - {x: -33, y: 22}
+        - {x: -36, y: 25}
+    - name: CivilianDude_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 644
+        width: 73
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 58}
+        - {x: -33.5, y: -58}
+        - {x: 36.5, y: -58}
+        - {x: 36.5, y: 57}
+        - {x: 34.5, y: 58}
+      - - {x: -36.5, y: 25}
+        - {x: -36.5, y: 13}
+        - {x: -34.5, y: 13}
+        - {x: -32.5, y: 15}
+        - {x: -32.5, y: 22}
+        - {x: -35.5, y: 25}
+    - name: CivilianDude_10
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 644
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 58}
+        - {x: -33, y: 52}
+        - {x: -33, y: -58}
+        - {x: 36, y: -58}
+        - {x: 36, y: 58}
+      - - {x: -36, y: 25}
+        - {x: -36, y: 13}
+        - {x: -34, y: 13}
+        - {x: -32, y: 15}
+        - {x: -32, y: 22}
+        - {x: -35, y: 25}
+    - name: CivilianDude_11
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 644
+        width: 74
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 58}
+        - {x: -34, y: -58}
+        - {x: 37, y: -58}
+        - {x: 37, y: 57}
+        - {x: 34, y: 58}
+      - - {x: -37, y: 25}
+        - {x: -37, y: 13}
+        - {x: -35, y: 13}
+        - {x: -33, y: 15}
+        - {x: -33, y: 22}
+        - {x: -36, y: 25}
+    - name: CivilianDude_12
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 516
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 58}
+        - {x: -29.5, y: 58}
+        - {x: -34.5, y: 55}
+        - {x: -34.5, y: -47}
+        - {x: -31.5, y: -53}
+        - {x: -26.5, y: -58}
+        - {x: 27.5, y: -58}
+        - {x: 32.5, y: -53}
+        - {x: 34.5, y: -46}
+        - {x: 34.5, y: 53}
+    - name: CivilianDude_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 516
+        width: 71
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 58}
+        - {x: -29.5, y: 58}
+        - {x: -35.5, y: 56}
+        - {x: -35.5, y: -48}
+        - {x: -28.5, y: -58}
+        - {x: 28.5, y: -58}
+        - {x: 33.5, y: -53}
+        - {x: 35.5, y: -47}
+        - {x: 35.5, y: 51}
+    - name: CivilianDude_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 516
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 58}
+        - {x: -29.5, y: 58}
+        - {x: -34.5, y: 55}
+        - {x: -34.5, y: -47}
+        - {x: -31.5, y: -53}
+        - {x: -26.5, y: -58}
+        - {x: 27.5, y: -58}
+        - {x: 32.5, y: -53}
+        - {x: 34.5, y: -46}
+        - {x: 34.5, y: 53}
+    - name: CivilianDude_15
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 516
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 58}
+        - {x: -36, y: -58}
+        - {x: 28, y: -58}
+        - {x: 36, y: -53}
+        - {x: 36, y: 41}
+        - {x: 31, y: 58}
+    - name: CivilianDude_16
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 390
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 57.5}
+        - {x: -34.5, y: 55.5}
+        - {x: -34.5, y: -57.5}
+        - {x: 34.5, y: -57.5}
+        - {x: 34.5, y: 53.5}
+        - {x: 32.5, y: 57.5}
+    - name: CivilianDude_17
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 390
+        width: 71
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.5, y: 57}
+        - {x: -35.5, y: 56}
+        - {x: -35.5, y: -57}
+        - {x: 35.5, y: -57}
+        - {x: 35.5, y: 52}
+        - {x: 20.5, y: 57}
+    - name: CivilianDude_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 390
+        width: 69
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 57.5}
+        - {x: -34.5, y: 55.5}
+        - {x: -34.5, y: -57.5}
+        - {x: 34.5, y: -57.5}
+        - {x: 34.5, y: 53.5}
+        - {x: 32.5, y: 57.5}
+    - name: CivilianDude_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 261
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 58}
+        - {x: -36, y: -58}
+        - {x: 33, y: -58}
+        - {x: 33, y: 53}
+        - {x: 23, y: 58}
+      - - {x: 32, y: 22}
+        - {x: 32, y: 15}
+        - {x: 34, y: 13}
+        - {x: 36, y: 13}
+        - {x: 36, y: 25}
+        - {x: 35, y: 25}
+    - name: CivilianDude_20
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 261
+        width: 72
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 56.5}
+        - {x: -36, y: 54.5}
+        - {x: -36, y: -56.5}
+        - {x: 33, y: -56.5}
+        - {x: 33, y: 53.5}
+        - {x: 30, y: 56.5}
+      - - {x: 32, y: 20.5}
+        - {x: 32, y: 13.5}
+        - {x: 34, y: 11.5}
+        - {x: 36, y: 11.5}
+        - {x: 36, y: 23.5}
+        - {x: 35, y: 23.5}
+    - name: CivilianDude_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 261
+        width: 73
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 58}
+        - {x: -15.5, y: 58}
+        - {x: -30.5, y: 51}
+        - {x: -36.5, y: 48}
+        - {x: -36.5, y: -56}
+        - {x: -33.5, y: -58}
+        - {x: 33.5, y: -58}
+        - {x: 33.5, y: 44}
+        - {x: 24.5, y: 53}
+      - - {x: 32.5, y: 22}
+        - {x: 32.5, y: 15}
+        - {x: 34.5, y: 13}
+        - {x: 36.5, y: 13}
+        - {x: 36.5, y: 25}
+        - {x: 35.5, y: 25}
+    - name: CivilianDude_22
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 133
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 58}
+        - {x: -33, y: 58}
+        - {x: -33, y: -58}
+        - {x: 31, y: -58}
+        - {x: 35, y: -46}
+        - {x: 36, y: -40}
+        - {x: 36, y: 57}
+      - - {x: -36, y: 25}
+        - {x: -36, y: 13}
+        - {x: -34, y: 13}
+        - {x: -32, y: 15}
+        - {x: -32, y: 22}
+        - {x: -35, y: 25}
+    - name: CivilianDude_23
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 133
+        width: 74
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 57.5}
+        - {x: -34, y: -57.5}
+        - {x: 37, y: -57.5}
+        - {x: 37, y: 44.5}
+        - {x: 19, y: 57.5}
+      - - {x: -37, y: 22.5}
+        - {x: -37, y: 10.5}
+        - {x: -35, y: 10.5}
+        - {x: -33, y: 12.5}
+        - {x: -33, y: 19.5}
+        - {x: -36, y: 22.5}
+    - name: CivilianDude_24
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 133
+        width: 72
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 58}
+        - {x: -33, y: 58}
+        - {x: -33, y: -58}
+        - {x: 31, y: -58}
+        - {x: 35, y: -46}
+        - {x: 36, y: -40}
+        - {x: 36, y: 57}
+      - - {x: -36, y: 25}
+        - {x: -36, y: 13}
+        - {x: -34, y: 13}
+        - {x: -32, y: 15}
+        - {x: -32, y: 22}
+        - {x: -35, y: 25}
+    - name: CivilianDude_25
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 4
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 58}
+        - {x: -29.5, y: 58}
+        - {x: -34.5, y: 55}
+        - {x: -34.5, y: -47}
+        - {x: -31.5, y: -53}
+        - {x: -26.5, y: -58}
+        - {x: 27.5, y: -58}
+        - {x: 32.5, y: -53}
+        - {x: 34.5, y: -46}
+        - {x: 34.5, y: 53}
+    - name: CivilianDude_26
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 4
+        width: 71
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 55}
+        - {x: 34.5, y: 56}
+        - {x: -35.5, y: 56}
+        - {x: -35.5, y: -49}
+        - {x: -28.5, y: -56}
+        - {x: 25.5, y: -56}
+        - {x: 34.5, y: -52}
+        - {x: 33.5, y: -44}
+        - {x: 35.5, y: -43}
+    - name: CivilianDude_27
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 4
+        width: 69
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 58}
+        - {x: -29.5, y: 58}
+        - {x: -34.5, y: 55}
+        - {x: -34.5, y: -47}
+        - {x: -31.5, y: -53}
+        - {x: -26.5, y: -58}
+        - {x: 27.5, y: -58}
+        - {x: 32.5, y: -53}
+        - {x: 34.5, y: -46}
+        - {x: 34.5, y: 53}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
