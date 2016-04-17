@@ -9,7 +9,7 @@ public class PlayerSpawner : MonoBehaviour {
 	public float SpawnTime = 5f;
 
 	private float nextSpawn = 0;
-	private int spawnCount = 0;
+	private int playerNumberSpawning = 1;
 
 	private PlayerLockInInfo playerInfo;
 	void Start() {
@@ -17,11 +17,14 @@ public class PlayerSpawner : MonoBehaviour {
 		playerInfo = info.GetComponent<PlayerLockInInfo>();
 	}
 
+	private bool doneSpawning = false;
 	public bool DoneSpawning() {
-		if(playerNumberSpawning > playerInfo.controllerCount) {
-			return true;
-		}
-		return false;
+		return doneSpawning;
+		//		if(playerNumberSpawning > playerInfo.controllerCount) {
+//			Debug.Log("DONE SPAWNING: "+playerNumberSpawning + " controllers: "+playerInfo.controllerCount);
+//			return true;
+//		}
+//		return false;
 	}
 
 	public int PlayerCount() {
@@ -32,14 +35,24 @@ public class PlayerSpawner : MonoBehaviour {
 		if(Time.time > nextSpawn && !DoneSpawning()) {
 			nextSpawn = Time.time + SpawnTime;
 
-			if(spawnCount == playerInfo.hunterPlayerIndex) {
-				SpawnPlayer(spawnCount, true);
+			if(playerNumberSpawning == playerInfo.hunterPlayerNumber) {
+				SpawnPlayer(playerNumberSpawning, true);
 			} else {
-				SpawnPlayer(spawnCount, false);
+				SpawnPlayer(playerNumberSpawning, false);
 			}
 
 			playerNumberSpawning++;
+			Debug.Log("SPAWNED: "+playerNumberSpawning);
 		}
+
+		if(playerNumberSpawning > playerInfo.controllerCount) {
+			StartCoroutine(SignalDoneSpawning());
+		}
+	}
+
+	private IEnumerator SignalDoneSpawning() {
+		yield return new WaitForSeconds(1f);
+		doneSpawning = true;
 	}
 
 	private void SpawnPlayer(int playerNumber, bool hunter) {
@@ -59,8 +72,6 @@ public class PlayerSpawner : MonoBehaviour {
 			playerObject = (GameObject) Instantiate(monsterPrefab, spawnLocation.transform.position, Quaternion.identity);
 		}
 		PlayerChar controls = playerObject.GetComponent<PlayerChar>();
-		controls.horizontalAxisName = "Player "+(playerIndex+1)+" Horizontal";
-		controls.verticalAxisName = "Player "+(playerIndex+1)+" Vertical";
-		controls.SetPlayerNumber(playerIndex + 1);
+		controls.SetPlayerNumber(playerNumber);
 	}
 }

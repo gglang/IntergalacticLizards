@@ -81,9 +81,9 @@ public class MonsterNavMove : MonoBehaviour {
 		Debug.Log("TRYING TO STOP");
 		if(!stopped) {
 			Debug.Log("STOPPING");
-			if(animController != null && (DirectionalMoveAnim || RotationalMoveAnim)) {
-				animController.SetBool ("Moving", false);// TODO A helper class should handle the setting of animations so that the mover doesn't need to know about the Animator
-			}
+//			if(animController != null && (DirectionalMoveAnim || RotationalMoveAnim)) {
+//				animController.SetBool ("Moving", false);// TODO A helper class should handle the setting of animations so that the mover doesn't need to know about the Animator
+//			}
 
 			//Updating graph so other units must path around my stopped location
 			this.BlockArea(transform.position, rvoController.radius*2);

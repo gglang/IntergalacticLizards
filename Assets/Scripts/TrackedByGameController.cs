@@ -7,6 +7,7 @@ using System.Collections;
 /// </summary>
 public class TrackedByGameController : MonoBehaviour {
 	void Start () {
+		Debug.Log("I WAS BORN: "+this.gameObject.name);
 		GameController.Instance.BirthInTheFamily(this.gameObject);
 	}
 

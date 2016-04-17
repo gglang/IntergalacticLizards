@@ -13,6 +13,7 @@ public class StartSequence : MonoBehaviour {
 	private PlayerLockInInfo info;
 	private string[,] playerControlMappings;
 	private int lockedInCount = 0;
+	private int hunterPlayerIndex = -1;
 
 	public static StartSequence Instance { get; private set; }
 
@@ -28,7 +29,6 @@ public class StartSequence : MonoBehaviour {
 //	}
 
 	private int controllerCount;
-	private int hunterPlayerIndex;
 	void Start() {
 		playerLockInInfo = GameObject.Find(PlayerLockInInfoObjectName);
 		info = playerLockInInfo.GetComponent<PlayerLockInInfo>();
@@ -51,14 +51,19 @@ public class StartSequence : MonoBehaviour {
 			#endif
 		}
 
-		int reptilePlayer = UnityEngine.Random.Range(0, controllerCount);
-		Debug.Log("COUNT: "+controllerCount+" reptile: "+reptilePlayer);
+		float randomValue = UnityEngine.Random.value;
+		hunterPlayerIndex = (int) Mathf.Lerp(0f, controllerCount, randomValue);
+		Debug.Log("PLAYER NUMBER: "+hunterPlayerIndex);
+		if(hunterPlayerIndex > controllerCount-1) {
+			hunterPlayerIndex = controllerCount-1;
+		}
+		Debug.Log("COUNT: "+controllerCount+" reptile: "+hunterPlayerIndex);
 	}
 	
 	void Update () {
 		if(lockedInCount == controllerCount) {
 			info.controllerCount = controllerCount;
-			info.hunterPlayerIndex = hunterPlayerIndex;
+			info.hunterPlayerNumber = hunterPlayerIndex+1;
 			SceneManager.LoadScene("Reptiloids");
 			lockedInCount++;
 		} else if(lockedInCount > controllerCount) {
@@ -67,9 +72,9 @@ public class StartSequence : MonoBehaviour {
 		}
 
 		for(int playerIndex = 0; playerIndex < controllerCount; playerIndex++) {
-			if(Input.GetButtonDown(playerControlMappings[playerIndex,0])){
+			if(Input.GetKeyDown(ButtonReference.AButtonKeyCode(playerIndex+1))){
 				TryLockIn(playerIndex, true);
-			} else if(Input.GetButtonDown(playerControlMappings[playerIndex,1])){
+			} else if(Input.GetKeyDown(ButtonReference.BButtonKeyCode(playerIndex+1))){
 				TryLockIn(playerIndex, false);
 			}
 		}

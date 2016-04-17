@@ -32,13 +32,16 @@ public class GameController : MonoBehaviour {
 	public IList<GameObject> lizards;
 	public IList<GameObject> hunters;
 	void Update() {
-		this.GetLists();
-
 		if(!spawner.DoneSpawning()) {
 			return;
 		}
+		Debug.Log("Checking for game end");
 
 		InitComplete = true;
+
+		this.GetLists();
+		Debug.Log("civ: "+civilians.Count+" liz: "+lizards.Count+" hunt: "+hunters.Count);
+
 
 		if(civilians.Count == 0) {
 			Debug.Log("NO CIVS");
@@ -113,12 +116,10 @@ public class GameController : MonoBehaviour {
 				return; 
 			}
 			layerList.Add(go);
-			Debug.Log("IM BORN");
 		} else {
 			List<GameObject> newList = new List<GameObject>();
 			newList.Add(go);
 			trackedGameobjectsByLayer.Add(go.layer, newList);
-			Debug.Log("IM BORN2");
 		}
 	}
 
@@ -131,7 +132,6 @@ public class GameController : MonoBehaviour {
 			List<GameObject> layerList = trackedGameobjectsByLayer[go.layer];
 			if(layerList.Contains(go)) {
 				layerList.Remove(go);
-				Debug.Log("SOMEONE MELTED, NOW THERE'S: "+layerList.Count);
 			}
 		}
 	}

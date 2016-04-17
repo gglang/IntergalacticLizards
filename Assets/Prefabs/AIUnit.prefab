@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb2e3f7c603ee4857a4eb5db77c3f5a0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  DeadBody: {fileID: 140282, guid: 200bd3874e872430faabd751d87c4261, type: 2}
   minTargets: 2
   maxTargets: 3
   maxWounds: 1
