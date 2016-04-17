@@ -155,6 +155,6 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void RestartGame() {
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+		SceneManager.LoadScene(SceneManager.GetSceneByName("StartScene").buildIndex);
 	}
 }
