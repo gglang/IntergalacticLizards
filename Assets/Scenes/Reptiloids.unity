@@ -645,6 +645,10 @@ Prefab:
       propertyPath: attackButtonName
       value: Player 3 Attack
       objectReference: {fileID: 0}
+    - target: {fileID: 123920, guid: b801ca832f46e4924bbb335e05a16fcd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b801ca832f46e4924bbb335e05a16fcd, type: 2}
   m_IsPrefabParent: 0
@@ -2346,15 +2350,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11422254, guid: acada5c16be194208ad25133d48ca56b, type: 2}
       propertyPath: horizontalAxisName
-      value: Player 2 Horizontal
+      value: Player 1 Horizontal
       objectReference: {fileID: 0}
     - target: {fileID: 11422254, guid: acada5c16be194208ad25133d48ca56b, type: 2}
       propertyPath: verticalAxisName
-      value: Player 2 Vertical
+      value: Player 1 Vertical
       objectReference: {fileID: 0}
     - target: {fileID: 11422254, guid: acada5c16be194208ad25133d48ca56b, type: 2}
       propertyPath: attackButtonName
-      value: Player 2 Attack
+      value: Player 1 Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 11422254, guid: acada5c16be194208ad25133d48ca56b, type: 2}
+      propertyPath: potassiumBullet
+      value: 
+      objectReference: {fileID: 103802, guid: 8118cc85aabc54d9db7432033bc15f83, type: 2}
+    - target: {fileID: 116490, guid: acada5c16be194208ad25133d48ca56b, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: acada5c16be194208ad25133d48ca56b, type: 2}
@@ -2409,6 +2421,10 @@ Prefab:
     - target: {fileID: 11496996, guid: b801ca832f46e4924bbb335e05a16fcd, type: 2}
       propertyPath: attackButtonName
       value: Player 1 Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 123920, guid: b801ca832f46e4924bbb335e05a16fcd, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b801ca832f46e4924bbb335e05a16fcd, type: 2}
@@ -4037,7 +4053,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1960038244}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a3ad38ef70ac459ead5f380278188e3, type: 3}
   m_Name: 

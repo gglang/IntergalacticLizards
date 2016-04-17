@@ -11,7 +11,8 @@ GameObject:
   - 212: {fileID: 21290138}
   - 50: {fileID: 5081438}
   - 61: {fileID: 6152196}
-  m_Layer: 0
+  - 114: {fileID: 11435236}
+  m_Layer: 13
   m_Name: Potassium Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61,6 +62,21 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: 2, y: 2}
+--- !u!114 &11435236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 103802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa4b900ef57c4ac885c5ce7f2312f91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  direction: {x: 0, y: 0}
+  velocity: 0
+  shooter: {fileID: 0}
+  damage: 2
 --- !u!212 &21290138
 SpriteRenderer:
   m_ObjectHideFlags: 1

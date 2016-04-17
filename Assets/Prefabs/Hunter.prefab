@@ -165,6 +165,7 @@ MonoBehaviour:
   horizontalAxisName: Horizontal
   verticalAxisName: Vertical
   attackButtonName: Fire1
+  potassiumBullet: {fileID: 103802, guid: 8118cc85aabc54d9db7432033bc15f83, type: 2}
 --- !u!212 &21257196
 SpriteRenderer:
   m_ObjectHideFlags: 1
