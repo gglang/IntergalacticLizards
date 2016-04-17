@@ -85,12 +85,10 @@ public class GameController : MonoBehaviour {
 				return; 
 			}
 			layerList.Add(go);
-			Debug.Log("IM BORN");
 		} else {
 			List<GameObject> newList = new List<GameObject>();
 			newList.Add(go);
 			trackedGameobjectsByLayer.Add(go.layer, newList);
-			Debug.Log("IM BORN2");
 		}
 	}
 
@@ -103,7 +101,6 @@ public class GameController : MonoBehaviour {
 			List<GameObject> layerList = trackedGameobjectsByLayer[go.layer];
 			if(layerList.Contains(go)) {
 				layerList.Remove(go);
-				Debug.Log("SOMEONE MELTED, NOW THERE'S: "+layerList.Count);
 			}
 		}
 	}

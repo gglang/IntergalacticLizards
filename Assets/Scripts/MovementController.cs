@@ -66,7 +66,6 @@ public class MovementController : MonoBehaviour, IAttackable {
 		}
 
 		if(mover.ReachedDestination && moved) {
-			Debug.Log("SWITCHING");
 			targetIndex = (targetIndex + 1)%targets.Count;
 			moved = false;
 			mover.StopMove();
@@ -75,7 +74,6 @@ public class MovementController : MonoBehaviour, IAttackable {
 
 	public virtual void Attacked(PlayerChar attacker, int wound){
 		currentWounds -= wound;
-		Debug.Log(this + " Attacked! " + wound + " wound");
 		if(currentWounds <= 0){
 			GameObject.Destroy(gameObject);
 		}

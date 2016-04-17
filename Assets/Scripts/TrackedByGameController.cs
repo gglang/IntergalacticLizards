@@ -11,7 +11,6 @@ public class TrackedByGameController : MonoBehaviour {
 	}
 
 	void OnDestroy() {
-		Debug.Log("IM MELTING");
 		GameController.Instance.DeathInTheFamily(this.gameObject);
 	}
 }

@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class StartSequence : MonoBehaviour {
+	public bool buildForMac = true;
 	public GameObject player1LockInObject;
 	public GameObject player2LockInObject;
 	public GameObject player3LockInObject;
@@ -11,7 +12,7 @@ public class StartSequence : MonoBehaviour {
 	public string PlayerLockInInfoObjectName = "PlayerLockInInfo";
 
 	private PlayerLockInInfo info;
-	private string[,] playerControlMappings;
+//	private string[,] playerControlMappings;
 	private int lockedInCount = 0;
 
 	public static StartSequence Instance { get; private set; }
@@ -28,7 +29,7 @@ public class StartSequence : MonoBehaviour {
 //	}
 
 	private int controllerCount;
-	private int hunterPlayerIndex;
+	private int hunterPlayerNumber;
 	void Start() {
 		playerLockInInfo = GameObject.Find(PlayerLockInInfoObjectName);
 		info = playerLockInInfo.GetComponent<PlayerLockInInfo>();
@@ -37,27 +38,45 @@ public class StartSequence : MonoBehaviour {
 
 	private void Init() {
 		controllerCount = Input.GetJoystickNames().Length;
-		playerControlMappings = new string[controllerCount, 2];
+//		playerControlMappings = new string[controllerCount, 2];
 
-		for(int i = 0; i < controllerCount; i++) {
+//		for(int i = 0; i < controllerCount; i++) {
 			// Assign control names... blah
-			#if UNITY_EDITOR || UNITY_STANDALONE_OSX
-				playerControlMappings[i,0] = "Player "+(i+1)+" Attack";
-				playerControlMappings[i,1] = "Player "+(i+1)+" Attack 2";
-			#elif UNITY_STANDALONE_WIN
-				playerControlMappings[i,0] = "Windows Player "+(i+1)+" Attack";
-				playerControlMappings[i,1] = "Windows Player "+(i+1)+" Attack 2";
-			#endif
+//			if(buildForMac) {
+//				playerControlMappings[i,0] = "Player "+(i+1)+" Attack";
+//				playerControlMappings[i,1] = "Player "+(i+1)+" Attack 2";
+//			} else {
+//				playerControlMappings[i,0] = "Windows Player "+(i+1)+" Attack";
+//				playerControlMappings[i,1] = "Windows Player "+(i+1)+" Attack 2";
+//			}
+//		}
+
+		// Randomly determine who is the hunter! Note that this strange way of randomizing is because Unity is bad
+		float[] playerRandomValues = new float[controllerCount];
+		for(int i = 0; i < playerRandomValues.Length; i++) {
+			playerRandomValues[i] = UnityEngine.Random.value;
 		}
 
-		int reptilePlayer = UnityEngine.Random.Range(0, controllerCount);
-		Debug.Log("COUNT: "+controllerCount+" reptile: "+reptilePlayer);
+		float shortestStraw = 2f;
+		int shortestStawPlayerIndex = -1;
+		for(int i = 0; i < playerRandomValues.Length; i++) {
+			if(playerRandomValues[i] < shortestStraw) {
+				shortestStraw = playerRandomValues[i];
+				shortestStawPlayerIndex = i;
+			}
+		}
+
+		if(shortestStawPlayerIndex < 0 || shortestStawPlayerIndex > 3) {
+			Debug.LogError("Invalid hunter player number chosen.");
+			return;
+		}
+		hunterPlayerNumber = shortestStawPlayerIndex + 1;
 	}
 	
 	void Update () {
 		if(lockedInCount == controllerCount) {
 			info.controllerCount = controllerCount;
-			info.hunterPlayerIndex = hunterPlayerIndex;
+			info.hunterPlayerNumber = hunterPlayerNumber;
 			SceneManager.LoadScene("Reptiloids");
 			lockedInCount++;
 		} else if(lockedInCount > controllerCount) {
@@ -65,27 +84,27 @@ public class StartSequence : MonoBehaviour {
 			return;
 		}
 
-		for(int playerIndex = 0; playerIndex < controllerCount; playerIndex++) {
-			if(Input.GetButtonDown(playerControlMappings[playerIndex,0])){
-				TryLockIn(playerIndex, true);
-			} else if(Input.GetButtonDown(playerControlMappings[playerIndex,1])){
-				TryLockIn(playerIndex, false);
+		for(int playerNumber = 1; playerNumber <= controllerCount; playerNumber++) {
+			if(Input.GetKeyDown(ButtonReference.AButtonKeyCode(playerNumber))){
+				TryLockIn(playerNumber, true);
+			} else if(Input.GetKeyDown(ButtonReference.BButtonKeyCode(playerNumber))){
+				TryLockIn(playerNumber, false);
 			}
 		}
 	}
 
-	private bool TryLockIn(int playerIndex, bool AButton) {
+	private bool TryLockIn(int playerNumber, bool AButton) {
 		if(AButton) {
-			if(playerIndex == hunterPlayerIndex) {
+			if(playerNumber == hunterPlayerNumber) {
 				return false;
 			} else {
-				NotifyLockIn(playerIndex);
+				NotifyLockIn(playerNumber);
 				lockedInCount++;
 				return true;
 			}
 		} else {
-			if(playerIndex == hunterPlayerIndex) {
-				NotifyLockIn(playerIndex);
+			if(playerNumber == hunterPlayerNumber) {
+				NotifyLockIn(playerNumber);
 				lockedInCount++;
 				return true;
 			} else {
@@ -94,18 +113,18 @@ public class StartSequence : MonoBehaviour {
 		}
 	}
 
-	private void NotifyLockIn(int playerIndex) {
-		switch(playerIndex) {
-		case 0: 
+	private void NotifyLockIn(int playerNumber) {
+		switch(playerNumber) {
+		case 1: 
 			player1LockInObject.GetComponent<UnityEngine.UI.Image>().color = Color.green;
 			break;
-		case 1: 
+		case 2: 
 			player2LockInObject.GetComponent<UnityEngine.UI.Image>().color = Color.green;
 			break;
-		case 2: 
+		case 3: 
 			player3LockInObject.GetComponent<UnityEngine.UI.Image>().color = Color.green;
 			break;
-		case 3: 
+		case 4: 
 			player4LockInObject.GetComponent<UnityEngine.UI.Image>().color = Color.green;
 			break;
 		default:

@@ -1024,6 +1024,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dfbe4b0930974ddd90e8ec1a8726725, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buildForMac: 0
   player1LockInObject: {fileID: 1491820387}
   player2LockInObject: {fileID: 745121902}
   player3LockInObject: {fileID: 564130743}

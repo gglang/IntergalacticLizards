@@ -78,12 +78,10 @@ public class MonsterNavMove : MonoBehaviour {
 	}
 
 	public void StopMove() {
-		Debug.Log("TRYING TO STOP");
 		if(!stopped) {
-			Debug.Log("STOPPING");
-			if(animController != null && (DirectionalMoveAnim || RotationalMoveAnim)) {
-				animController.SetBool ("Moving", false);// TODO A helper class should handle the setting of animations so that the mover doesn't need to know about the Animator
-			}
+//			if(animController != null && (DirectionalMoveAnim || RotationalMoveAnim)) {
+//				animController.SetBool ("Moving", false);// TODO A helper class should handle the setting of animations so that the mover doesn't need to know about the Animator
+//			}
 
 			//Updating graph so other units must path around my stopped location
 			this.BlockArea(transform.position, rvoController.radius*2);
@@ -283,7 +281,6 @@ public class MonsterNavMove : MonoBehaviour {
 
 		if(IsMoving) {
 			float currTime = Time.fixedTime;
-			float lastTime = lastStuckCheckTime;
 			if(currTime - lastStuckCheckTime < StuckCheckCooldownTime) {
 				return false;	// FIXME not sure if this timer is a robust way to handle this
 			}

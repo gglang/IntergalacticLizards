@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerLockInInfo : MonoBehaviour {
 
 	public int controllerCount {get; set;}
-	public int hunterPlayerIndex {get; set;}
+	public int hunterPlayerNumber {get; set;}
 
 	// Use this for initialization
 	public static PlayerLockInInfo Instance { get; private set; }
