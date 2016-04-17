@@ -38,8 +38,6 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 	}
 
 	public virtual void ProcessMovement(){
-
-		
 		horizontalAxis = Input.GetAxis(horizontalAxisName);
 		verticalAxis = Input.GetAxis(verticalAxisName);
 		directionX = horizontalAxis == 0 ? directionX:Mathf.Sign(horizontalAxis);
@@ -78,4 +76,18 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 		}
 	}
 
+	protected int PlayerNumber = -1;
+	/// <summary>
+	/// Takes player number between 1 (inclusive) and 4 (inclusive)
+	/// </summary>
+	/// <param name="playerNumber">Player number.</param>
+	public void SetPlayerNumber(int playerNumber) {
+		if(playerNumber < 1 || playerNumber > 4) {
+			Debug.LogError("Unknown player number detected");
+			return;
+		}
+		PlayerNumber = playerNumber;
+		this.horizontalAxisName = "Player "+playerNumber+" Horizontal";
+		this.verticalAxisName = "Player "+playerNumber+" Vertical";
+	}
 }

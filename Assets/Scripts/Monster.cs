@@ -15,7 +15,10 @@ public class Monster : PlayerChar {
 
 	void Update(){
 		ProcessMovement();
-		if(Input.GetButtonDown(attackButtonName)){
+//		if(Input.GetButtonDown(attackButtonName)){
+//			Action();
+//		}
+		if(Input.GetKeyDown(ButtonReference.AButtonKeyCode(this.PlayerNumber))) {
 			Action();
 		}
 		if(!transformed){
