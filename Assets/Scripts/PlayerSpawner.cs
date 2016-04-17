@@ -32,9 +32,9 @@ public class PlayerSpawner : MonoBehaviour {
 	}
 
 	void Update () {
-		if(Time.time > nextSpawn && !DoneSpawning()) {
-			nextSpawn = Time.time + SpawnTime;
-
+//		if(Time.time > nextSpawn && !DoneSpawning()) {
+//			nextSpawn = Time.time + SpawnTime;
+		while(playerNumberSpawning <= playerInfo.controllerCount) {
 			if(playerNumberSpawning == playerInfo.hunterPlayerNumber) {
 				SpawnPlayer(playerNumberSpawning, true);
 			} else {
@@ -44,10 +44,11 @@ public class PlayerSpawner : MonoBehaviour {
 			playerNumberSpawning++;
 			Debug.Log("SPAWNED: "+playerNumberSpawning);
 		}
+//		}
 
-		if(playerNumberSpawning > playerInfo.controllerCount) {
+//		if(playerNumberSpawning > playerInfo.controllerCount) {
 			StartCoroutine(SignalDoneSpawning());
-		}
+//		}
 	}
 
 	private IEnumerator SignalDoneSpawning() {
