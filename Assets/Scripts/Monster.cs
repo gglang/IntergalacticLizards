@@ -6,6 +6,7 @@ public class Monster : PlayerChar {
 	public Sprite lizardForm, humanForm;
 	private float feedTimer;
 	private bool transformed = false;
+	public AudioSource slurpSound;
 
 	public override void Start ()
 	{
@@ -28,8 +29,6 @@ public class Monster : PlayerChar {
 				transformed = true;
 			}
 		}
-
-
 	}
 
 	public override void Action (){
@@ -47,6 +46,7 @@ public class Monster : PlayerChar {
 				}
 				sr.color = hit.transform.gameObject.GetComponent<SpriteRenderer>().color;
 				victim.Attacked(this, 1);
+				this.slurpSound.Play();
 			}
 			
 		}

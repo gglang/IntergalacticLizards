@@ -5,6 +5,8 @@ using System.Collections.Generic;
 [RequireComponent(typeof(MonsterNavMove))]
 public class MovementController : MonoBehaviour, IAttackable {
 
+	public GameObject DeadBody;
+
 	[Range(2,100)]
 	public int minTargets = 2; 
 	[Range(2,100)]
@@ -77,6 +79,7 @@ public class MovementController : MonoBehaviour, IAttackable {
 		currentWounds -= wound;
 		Debug.Log(this + " Attacked! " + wound + " wound");
 		if(currentWounds <= 0){
+			Instantiate(DeadBody, this.transform.position, Quaternion.identity);
 			GameObject.Destroy(gameObject);
 		}
 	}

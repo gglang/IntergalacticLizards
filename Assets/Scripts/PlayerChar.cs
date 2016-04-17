@@ -13,6 +13,8 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 	protected SpriteRenderer sr;
 	protected AudioSource aus;
 
+	public GameObject DeadBody;
+
 	public virtual void Start(){
 		currentWounds = maxWounds;
 		sr = gameObject.GetComponent<SpriteRenderer>();
@@ -72,6 +74,7 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 		currentWounds -= wound;
 		Debug.Log(this + " Attacked! " + wound + " wound");
 		if(currentWounds <= 0){
+			Instantiate(DeadBody, this.transform.position, Quaternion.identity);
 			GameObject.Destroy(gameObject);
 		}
 	}

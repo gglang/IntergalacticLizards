@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(GenAI))]
+[RequireComponent(typeof(PlayerSpawner))]
 public class GameController : MonoBehaviour {
 	private IDictionary<int, List<GameObject>> trackedGameobjectsByLayer;
 	public GameObject GameOverScreen;
@@ -10,7 +12,9 @@ public class GameController : MonoBehaviour {
 
 	// Singleton
 	public static GameController Instance { get; private set; }
-
+	private PlayerSpawner spawner;
+	private GenAI aiGenerator;
+	private bool InitComplete = false;
 	void Awake() {
 		if(Instance != null && Instance != this)
 		{
@@ -20,17 +24,21 @@ public class GameController : MonoBehaviour {
 		Instance = this;
 
 		trackedGameobjectsByLayer = new Dictionary<int, List<GameObject>>();
+		spawner = GetComponent<PlayerSpawner>();
+		aiGenerator = GetComponent<GenAI>();
 	}
 
-	private IList<GameObject> civilians;
-	private IList<GameObject> lizards;
-	private IList<GameObject> hunters;
+	public IList<GameObject> civilians;
+	public IList<GameObject> lizards;
+	public IList<GameObject> hunters;
 	void Update() {
 		this.GetLists();
 
-		if(Time.timeSinceLevelLoad < MinimumWaitTimeBeforeGameOver) {
+		if(!spawner.DoneSpawning()) {
 			return;
 		}
+
+		InitComplete = true;
 
 		if(civilians.Count == 0) {
 			Debug.Log("NO CIVS");
@@ -72,6 +80,26 @@ public class GameController : MonoBehaviour {
 
 		string[] hunterLayers = {"Hunter"};
 		hunters = this.FindTrackedObjectsInLayers(LayerMask.GetMask(hunterLayers));
+	}
+
+	public bool DoneSpawning() {
+		return spawner.DoneSpawning() && InitComplete;
+	}
+
+	/// <summary>
+	/// Returns fraction between 0 and 1
+	/// </summary>
+	/// <returns>The percentage left.</returns>
+	public float CivilianPercentageLeft() {
+		return ((float)this.civilians.Count) / ((float)aiGenerator.numberOfVillagers);
+	}
+
+	public int StartingPlayerCount() {
+		return spawner.PlayerCount();
+	}
+
+	public bool IsGameOver() {
+		return gameover;
 	}
 
 	/// <summary>
