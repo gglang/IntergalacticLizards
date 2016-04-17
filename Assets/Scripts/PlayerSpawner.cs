@@ -61,11 +61,11 @@ public class PlayerSpawner : MonoBehaviour {
 			Debug.LogError("Unknown player detected when spawning");
 			return;
 		}
-		int spawnIndex = (int)Mathf.Lerp(0f, (float)randomSpawnLocations.Length, UnityEngine.Random.value);
-		if(spawnIndex >= randomSpawnLocations.Length) {
-			spawnIndex = randomSpawnLocations.Length - 1;
-		}
-		GameObject spawnLocation = randomSpawnLocations[spawnIndex];
+//		int spawnIndex = (int)Mathf.Lerp(0f, (float)randomSpawnLocations.Length, UnityEngine.Random.value);
+//		if(spawnIndex >= randomSpawnLocations.Length) {
+//			spawnIndex = randomSpawnLocations.Length - 1;
+//		}
+		GameObject spawnLocation = randomSpawnLocations[playerNumber-1];
 		GameObject playerObject;
 		if(hunter) {
 			playerObject = (GameObject) Instantiate(hunterPrefab, spawnLocation.transform.position, Quaternion.identity);
