@@ -1,9 +1,33 @@
 fileFormatVersion: 2
 guid: 14280e5ba659b4663b69be9ecd9fce10
-timeCreated: 1460849184
+timeCreated: 1460859668
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Pants_Dude_0
+    21300002: Pants_Dude_1
+    21300004: Pants_Dude_2
+    21300006: Pants_Dude_3
+    21300008: Pants_Dude_4
+    21300010: Pants_Dude_6
+    21300012: Pants_Dude_8
+    21300014: Pants_Dude_10
+    21300016: Pants_Dude_13
+    21300018: Pants_Dude_14
+    21300020: Pants_Dude_16
+    21300022: Pants_Dude_17
+    21300024: Pants_Dude_21
+    21300026: Pants_Dude_22
+    21300028: Pants_Dude_23
+    21300030: Pants_Dude_24
+    21300032: Pants_Dude_25
+    21300034: Pants_Dude_26
+    21300036: Pants_Dude_27
+    21300038: Pants_Dude_29
+    21300040: Pants_Dude_32
+    21300042: Pants_Dude_34
+    21300044: Pants_Dude_35
+    21300046: Pants_Dude_36
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,26 +54,290 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
-    wrapMode: -1
-  nPOTScale: 1
+    wrapMode: 1
+  nPOTScale: 0
   lightmap: 0
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 0
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 100
-  alphaIsTransparency: 0
-  textureType: -1
+  spritePixelsToUnits: 72
+  alphaIsTransparency: 1
+  textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Pants_Dude_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1932
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1932
+        width: 40
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1934
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 1932
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_4
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1808
+        width: 38
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1803
+        width: 40
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_8
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1808
+        width: 38
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_10
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1806
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_13
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 1676
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_14
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1678
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_16
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1677
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_17
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1676
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_21
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1548
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_22
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1544
+        width: 43
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_23
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 1548
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_24
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1544
+        width: 42
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_25
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1424
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_26
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1424
+        width: 41
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_27
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1295
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_29
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1295
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_32
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1164
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_34
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1164
+        width: 39
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_35
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1036
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Pants_Dude_36
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1036
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 

@@ -1,9 +1,35 @@
 fileFormatVersion: 2
 guid: ccaa1bf5641d44d7d9d968cf1c357a22
-timeCreated: 1460849184
+timeCreated: 1460861510
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Shoe_Dude_0
+    21300002: Shoe_Dude_1
+    21300004: Shoe_Dude_3
+    21300006: Shoe_Dude_4
+    21300008: Shoe_Dude_5
+    21300010: Shoe_Dude_6
+    21300012: Shoe_Dude_7
+    21300014: Shoe_Dude_8
+    21300016: Shoe_Dude_9
+    21300018: Shoe_Dude_10
+    21300020: Shoe_Dude_11
+    21300022: Shoe_Dude_12
+    21300024: Shoe_Dude_13
+    21300026: Shoe_Dude_16
+    21300028: Shoe_Dude_18
+    21300030: Shoe_Dude_20
+    21300032: Shoe_Dude_21
+    21300034: Shoe_Dude_22
+    21300036: Shoe_Dude_24
+    21300038: Shoe_Dude_25
+    21300040: Shoe_Dude_26
+    21300042: Shoe_Dude_27
+    21300044: Shoe_Dude_28
+    21300046: Shoe_Dude_29
+    21300048: Shoe_Dude_30
+    21300050: Shoe_Dude_31
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -49,7 +75,293 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Shoe_Dude_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1924
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1923
+        width: 43
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1924
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_4
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1924
+        width: 42
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_5
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1800
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1799
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1800
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_8
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1798
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_9
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1668
+        width: 35
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_10
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 1668
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_11
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1668
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_12
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1668
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1542
+        width: 52
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_16
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1540
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_18
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1540
+        width: 48
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_20
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1536
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_21
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1416
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_22
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1415
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_24
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1287
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_25
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 1287
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1156
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1156
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_28
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 1030
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1028
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_30
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 1028
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Shoe_Dude_31
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 1030
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 

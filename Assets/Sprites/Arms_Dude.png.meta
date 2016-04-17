@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 62ce6dd657a1e48ae8c6dfbae11cee4c
-timeCreated: 1460848764
+timeCreated: 1460862266
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -93,21 +93,10 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 1946
-        width: 14
+        width: 67
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_1
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 1946
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_2
@@ -115,21 +104,10 @@ TextureImporter:
         serializedVersion: 2
         x: 163
         y: 1946
-        width: 14
+        width: 66
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_3
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 1951
-        width: 15
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_4
@@ -137,43 +115,21 @@ TextureImporter:
         serializedVersion: 2
         x: 289
         y: 1946
-        width: 13
-        height: 19
+        width: 68
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_5
-      rect:
-        serializedVersion: 2
-        x: 340
-        y: 1946
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_6
       rect:
         serializedVersion: 2
         x: 416
-        y: 1952
-        width: 16
-        height: 17
+        y: 1946
+        width: 72
+        height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_7
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 1947
-        width: 16
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_8
@@ -184,7 +140,7 @@ TextureImporter:
         width: 13
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_9
@@ -195,7 +151,7 @@ TextureImporter:
         width: 19
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_10
@@ -206,7 +162,7 @@ TextureImporter:
         width: 13
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_11
@@ -214,43 +170,21 @@ TextureImporter:
         serializedVersion: 2
         x: 428
         y: 1812
-        width: 14
+        width: 52
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_12
-      rect:
-        serializedVersion: 2
-        x: 468
-        y: 1821
-        width: 8
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_13
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 1691
-        width: 8
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_14
       rect:
         serializedVersion: 2
-        x: 75
+        x: 38
         y: 1684
-        width: 14
+        width: 51
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_15
@@ -261,7 +195,7 @@ TextureImporter:
         width: 13
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_16
@@ -272,7 +206,7 @@ TextureImporter:
         width: 18
         height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_17
@@ -283,29 +217,18 @@ TextureImporter:
         width: 13
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_18
       rect:
         serializedVersion: 2
-        x: 30
+        x: 29
         y: 1563
-        width: 14
+        width: 66
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_19
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 1563
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_20
@@ -313,65 +236,32 @@ TextureImporter:
         serializedVersion: 2
         x: 160
         y: 1563
-        width: 13
+        width: 66
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_21
-      rect:
-        serializedVersion: 2
-        x: 212
-        y: 1567
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_22
-      rect:
-        serializedVersion: 2
-        x: 290
-        y: 1563
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_23
       rect:
         serializedVersion: 2
-        x: 342
+        x: 292
         y: 1563
-        width: 14
+        width: 63
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_24
       rect:
         serializedVersion: 2
         x: 411
-        y: 1567
-        width: 13
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_25
-      rect:
-        serializedVersion: 2
-        x: 462
-        y: 1563
-        width: 14
+        y: 1562
+        width: 70
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_26
@@ -379,43 +269,21 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 1436
-        width: 14
+        width: 66
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_27
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 1436
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_28
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 1434
-        width: 13
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_29
       rect:
         serializedVersion: 2
-        x: 212
+        x: 159
         y: 1434
-        width: 13
+        width: 66
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_30
@@ -426,7 +294,7 @@ TextureImporter:
         width: 15
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_31
@@ -437,7 +305,7 @@ TextureImporter:
         width: 13
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_32
@@ -448,7 +316,7 @@ TextureImporter:
         width: 13
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_33
@@ -459,7 +327,7 @@ TextureImporter:
         width: 13
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_34
@@ -467,43 +335,21 @@ TextureImporter:
         serializedVersion: 2
         x: 30
         y: 1051
-        width: 14
+        width: 66
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_35
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 1051
-        width: 14
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: Arms_Dude_36
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 1049
-        width: 13
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Arms_Dude_37
       rect:
         serializedVersion: 2
-        x: 212
+        x: 159
         y: 1048
-        width: 13
+        width: 66
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []
