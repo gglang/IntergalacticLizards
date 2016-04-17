@@ -7,26 +7,31 @@ public class StartSequence : MonoBehaviour {
 	public GameObject player2LockInObject;
 	public GameObject player3LockInObject;
 	public GameObject player4LockInObject;
+	private GameObject playerLockInInfo;
+	public string PlayerLockInInfoObjectName = "PlayerLockInInfo";
 
+	private PlayerLockInInfo info;
 	private string[,] playerControlMappings;
-	public int reptilePlayerIndex {get; private set;}
-	public int controllerCount {get; private set;}
 	private int lockedInCount = 0;
 
 	public static StartSequence Instance { get; private set; }
 
-	void Awake() {
-		if(Instance != null && Instance != this)
-		{
-			Destroy(this);
-		}
+//	void Awake() {
+//		Debug.Log("IM WAKING");
+//		if(Instance != null && Instance != this)
+//		{
+//			Destroy(this.gameObject);
+//		}
+//
+//		Instance = this;
+//		DontDestroyOnLoad(this);
+//	}
 
-		Instance = this;
-		DontDestroyOnLoad(this);
-	}
-
+	private int controllerCount;
+	private int hunterPlayerIndex;
 	void Start() {
-		// This only runs once! OnLevelWasLoaded handles future plays
+		playerLockInInfo = GameObject.Find(PlayerLockInInfoObjectName);
+		info = playerLockInInfo.GetComponent<PlayerLockInInfo>();
 		Init();
 	}
 
@@ -45,6 +50,16 @@ public class StartSequence : MonoBehaviour {
 	}
 	
 	void Update () {
+		if(lockedInCount == controllerCount) {
+			info.controllerCount = controllerCount;
+			info.hunterPlayerIndex = hunterPlayerIndex;
+			SceneManager.LoadScene("Reptiloids");
+			lockedInCount++;
+		} else if(lockedInCount > controllerCount) {
+			// Scene loading!
+			return;
+		}
+
 		for(int playerIndex = 0; playerIndex < controllerCount; playerIndex++) {
 			if(Input.GetButtonDown(playerControlMappings[playerIndex,0])){
 				TryLockIn(playerIndex, true);
@@ -56,15 +71,17 @@ public class StartSequence : MonoBehaviour {
 
 	private bool TryLockIn(int playerIndex, bool AButton) {
 		if(AButton) {
-			if(playerIndex == reptilePlayerIndex) {
+			if(playerIndex == hunterPlayerIndex) {
 				return false;
 			} else {
 				NotifyLockIn(playerIndex);
+				lockedInCount++;
 				return true;
 			}
 		} else {
-			if(playerIndex == reptilePlayerIndex) {
+			if(playerIndex == hunterPlayerIndex) {
 				NotifyLockIn(playerIndex);
+				lockedInCount++;
 				return true;
 			} else {
 				return false;
@@ -93,13 +110,14 @@ public class StartSequence : MonoBehaviour {
 		
 	}
 
-	void OnLevelWasLoaded(int level) {
-		Debug.Log("test");
-		if(level == SceneManager.GetSceneByName("StartScene").buildIndex) {
-			reptilePlayerIndex = -1;
-			Init();
-		}
-	}
+//	void OnLevelWasLoaded(int level) {
+//		Debug.Log("test");
+//		if(level == SceneManager.GetSceneByName("StartScene").buildIndex) {
+//			hunterPlayerIndex = -1;
+//			lockedInCount = 0;
+//			Init();
+//		}
+//	}
 
 	
 }

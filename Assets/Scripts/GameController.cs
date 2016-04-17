@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour {
 	private IDictionary<int, List<GameObject>> trackedGameobjectsByLayer;
 	public GameObject GameOverScreen;
+	public float MinimumWaitTimeBeforeGameOver = 30f;
 
 	// Singleton
 	public static GameController Instance { get; private set; }
@@ -26,6 +27,10 @@ public class GameController : MonoBehaviour {
 	private IList<GameObject> hunters;
 	void Update() {
 		this.GetLists();
+
+		if(Time.timeSinceLevelLoad < MinimumWaitTimeBeforeGameOver) {
+			return;
+		}
 
 		if(civilians.Count == 0) {
 			Debug.Log("NO CIVS");
@@ -155,6 +160,6 @@ public class GameController : MonoBehaviour {
 	}
 
 	public void RestartGame() {
-		SceneManager.LoadScene(SceneManager.GetSceneByName("StartScene").buildIndex);
+		SceneManager.LoadScene("StartScene");
 	}
 }
