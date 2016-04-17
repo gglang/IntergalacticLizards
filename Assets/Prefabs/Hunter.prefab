@@ -13,7 +13,8 @@ GameObject:
   - 50: {fileID: 5038280}
   - 61: {fileID: 6153298}
   - 82: {fileID: 8218408}
-  m_Layer: 0
+  - 114: {fileID: 11402720}
+  m_Layer: 9
   m_Name: Hunter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,6 +138,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &11402720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 116490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba68af9813bdf4975b5a30e768885649, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11422254
 MonoBehaviour:
   m_ObjectHideFlags: 1
