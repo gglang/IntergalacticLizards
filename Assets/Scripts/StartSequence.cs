@@ -45,6 +45,7 @@ public class StartSequence : MonoBehaviour {
 				playerControlMappings[i,0] = "Player "+(i+1)+" Attack";
 				playerControlMappings[i,1] = "Player "+(i+1)+" Attack 2";
 			#elif UNITY_STANDALONE_WIN
+				GameObject.Find("Bitch").GetComponent<UnityEngine.UI.Image>().enabled = true;
 				playerControlMappings[i,0] = "Windows Player "+(i+1)+" Attack";
 				playerControlMappings[i,1] = "Windows Player "+(i+1)+" Attack 2";
 			#endif
