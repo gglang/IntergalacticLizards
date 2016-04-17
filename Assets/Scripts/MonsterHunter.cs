@@ -46,7 +46,7 @@ public class MonsterHunter : PlayerChar {
 	public override void Action(){
 		//	Debug.Log("Attack");
 		RaycastHit2D hit = Physics2D.Raycast(transform.position ,directionVector,3);
-
+		GameObject.Instantiate(attack, transform.position, Quaternion.identity);
 		if(hit.transform != null){
 			//			Debug.Log(hit.transform.gameObject.name);
 			IAttackable victim = hit.transform.gameObject.GetComponent<IAttackable>();

@@ -264,6 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
+  attack: {fileID: 192412, guid: c557ddb37522f4a558cfff3b5c96d59b, type: 2}
   maxWounds: 2
   horizontalAxisName: Player 1 Horizontal
   verticalAxisName: Player 1 Vertical

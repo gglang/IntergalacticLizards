@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class PlayerChar : MonoBehaviour, IAttackable {
 	public float speed = 4;
+	public GameObject attack;
 	public int maxWounds = 2;
 	public string horizontalAxisName, verticalAxisName, attackButtonName;
 	protected float horizontalAxis, verticalAxis;
@@ -58,7 +59,7 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 	public virtual void Action(){
 	//	Debug.Log("Attack");
 		RaycastHit2D hit = Physics2D.Raycast(transform.position ,directionVector,3);
-
+		GameObject.Instantiate(attack, transform.position + new Vector3(Mathf.Sign(horizontalAxis) * 1.5f, Mathf.Sign(verticalAxis) * 1.5f), Quaternion.identity);
 		if(hit.transform != null){
 //			Debug.Log(hit.transform.gameObject.name);
 			IAttackable victim = hit.transform.gameObject.GetComponent<IAttackable>();
