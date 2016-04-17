@@ -3,12 +3,15 @@ using System.Collections;
 using System.Collections.Generic;
 
 [RequireComponent(typeof(MonsterNavMove))]
-public class MovementController : MonoBehaviour {
+public class MovementController : MonoBehaviour, IAttackable {
 
 	[Range(2,100)]
 	public int minTargets = 2; 
 	[Range(2,100)]
 	public int maxTargets = 5;
+
+	public int maxWounds = 1;
+	protected int currentWounds;
 
 	private MonsterNavMove mover;
 	private IList<GameObject> targets;
@@ -18,11 +21,16 @@ public class MovementController : MonoBehaviour {
 		targets = new List<GameObject>();
 
 		StartCoroutine(PickTargets());
+		currentWounds = maxWounds;
 	}
 
 	private IEnumerator PickTargets() {
 		yield return new WaitForFixedUpdate();
-		IList<GameObject> targettables = Utilities.Instance.GetTargetables();
+		string[] targetLayers = {"Target"};
+		if(GameController.Instance == null) {
+			Debug.Log("WTF");
+		}
+		IList<GameObject> targettables = GameController.Instance.FindTrackedObjectsInLayers(LayerMask.GetMask(targetLayers));
 
 		if(maxTargets < minTargets) {
 			maxTargets = minTargets;
@@ -62,6 +70,14 @@ public class MovementController : MonoBehaviour {
 			targetIndex = (targetIndex + 1)%targets.Count;
 			moved = false;
 			mover.StopMove();
+		}
+	}
+
+	public virtual void Attacked(PlayerChar attacker, int wound){
+		currentWounds -= wound;
+		Debug.Log(this + " Attacked! " + wound + " wound");
+		if(currentWounds <= 0){
+			GameObject.Destroy(gameObject);
 		}
 	}
 }
