@@ -20,7 +20,6 @@ public class Monster : PlayerChar {
 		}
 		if(!transformed){
 			feedTimer -= 1/60f;
-			Debug.Log(feedTimer);
 			if(feedTimer <= 0 ){
 				sr.sprite = lizardForm;
 				transformed = true;

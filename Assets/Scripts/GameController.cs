@@ -59,11 +59,10 @@ public class GameController : MonoBehaviour {
 	}
 
 	private void GetLists() {
-		Debug.Log("CACHING");
 		string[] civLayers = {"AI"};
 		civilians = this.FindTrackedObjectsInLayers(LayerMask.GetMask(civLayers));
 
-		string[] lizardLayers = {"Lizard"};
+		string[] lizardLayers = {"Monster"};
 		lizards = this.FindTrackedObjectsInLayers(LayerMask.GetMask(lizardLayers));
 
 		string[] hunterLayers = {"Hunter"};
