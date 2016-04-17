@@ -13,7 +13,7 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 	protected SpriteRenderer sr;
 	protected AudioSource aus;
 
-	void Start(){
+	public virtual void Start(){
 		currentWounds = maxWounds;
 		sr = gameObject.GetComponent<SpriteRenderer>();
 		aus = gameObject.GetComponent<AudioSource>();
@@ -48,12 +48,11 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 		Debug.DrawRay(transform.position ,directionVector);
 	//	Debug.Log("Horizontal Axis: " + horizontalAxis + " Vertical Axis: " + verticalAxis);
 		transform.position += (Vector3.right * speed * Time.deltaTime * horizontalAxis) + (Vector3.up * speed * Time.deltaTime * verticalAxis);
-		if(horizontalAxis <  0)
-			transform.localScale = new Vector3(-3,3);
-		if(horizontalAxis > 0)
-			transform.localScale = new Vector3(3,3);
-		if(directionX == 0)
-			Debug.Log(Mathf.Sign(directionX));
+//		if(horizontalAxis <  0)
+//			transform.localScale = new Vector3(-3,3);
+//		if(horizontalAxis > 0)
+//			transform.localScale = new Vector3(3,3);
+//		
 	}
 
 	public virtual void Action(){

@@ -2,12 +2,32 @@
 using System.Collections;
 
 public class Monster : PlayerChar {
-	
+	public float timeUntilTransform = 10;
+	public Sprite lizardForm, humanForm;
+	private float feedTimer;
+	private bool transformed = false;
+
+	public override void Start ()
+	{
+		base.Start();
+		feedTimer = timeUntilTransform;
+	}
+
 	void Update(){
 		ProcessMovement();
 		if(Input.GetButtonDown(attackButtonName)){
 			Action();
 		}
+		if(!transformed){
+			feedTimer -= 1/60f;
+			Debug.Log(feedTimer);
+			if(feedTimer <= 0 ){
+				sr.sprite = lizardForm;
+				transformed = true;
+			}
+		}
+
+
 	}
 
 	public override void Action (){
@@ -18,6 +38,11 @@ public class Monster : PlayerChar {
 //			Debug.Log(hit.transform.gameObject.name);
 			IAttackable victim = hit.transform.gameObject.GetComponent<IAttackable>();
 			if(victim != null){
+				feedTimer = 10;
+				if(transformed){
+					sr.sprite = humanForm;
+					transformed = false;
+				}
 				sr.color = hit.transform.gameObject.GetComponent<SpriteRenderer>().color;
 				victim.Attacked(this, 1);
 			}

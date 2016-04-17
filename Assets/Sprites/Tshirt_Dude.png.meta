@@ -1,0 +1,596 @@
+fileFormatVersion: 2
+guid: ad52681484f0e48429a62165927c4b65
+timeCreated: 1460848877
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tshirt_Dude_0
+    21300002: Tshirt_Dude_1
+    21300004: Tshirt_Dude_2
+    21300006: Tshirt_Dude_3
+    21300008: Tshirt_Dude_4
+    21300010: Tshirt_Dude_5
+    21300012: Tshirt_Dude_6
+    21300014: Tshirt_Dude_7
+    21300016: Tshirt_Dude_8
+    21300018: Tshirt_Dude_9
+    21300020: Tshirt_Dude_10
+    21300022: Tshirt_Dude_11
+    21300024: Tshirt_Dude_12
+    21300026: Tshirt_Dude_13
+    21300028: Tshirt_Dude_14
+    21300030: Tshirt_Dude_15
+    21300032: Tshirt_Dude_16
+    21300034: Tshirt_Dude_17
+    21300036: Tshirt_Dude_18
+    21300038: Tshirt_Dude_19
+    21300040: Tshirt_Dude_20
+    21300042: Tshirt_Dude_21
+    21300044: Tshirt_Dude_22
+    21300046: Tshirt_Dude_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 72
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tshirt_Dude_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1944
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 18.5}
+        - {x: -24.5, y: 18.5}
+        - {x: -27.5, y: 13.5}
+        - {x: -27.5, y: -11.5}
+        - {x: -21.5, y: -18.5}
+        - {x: 26.5, y: -18.5}
+        - {x: 27.5, y: -15.5}
+        - {x: 27.5, y: 14.5}
+    - name: Tshirt_Dude_1
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1944
+        width: 54
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 18.5}
+        - {x: -27, y: -11.5}
+        - {x: -22, y: -18.5}
+        - {x: 26, y: -18.5}
+        - {x: 27, y: -13.5}
+        - {x: 27, y: 14.5}
+        - {x: 21, y: 18.5}
+    - name: Tshirt_Dude_2
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1945
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 18}
+        - {x: -27.5, y: 14}
+        - {x: -27.5, y: -17}
+        - {x: -25.5, y: -18}
+        - {x: 25.5, y: -18}
+        - {x: 27.5, y: -12}
+        - {x: 27.5, y: 12}
+        - {x: 24.5, y: 18}
+    - name: Tshirt_Dude_3
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1944
+        width: 53
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 20}
+        - {x: -26.5, y: 16}
+        - {x: -26.5, y: -20}
+        - {x: 22.5, y: -20}
+        - {x: 26.5, y: -13}
+        - {x: 26.5, y: 18}
+        - {x: 23.5, y: 20}
+    - name: Tshirt_Dude_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1819
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 16.5}
+        - {x: -20, y: -18.5}
+        - {x: 20, y: -18.5}
+        - {x: 20, y: 6.5}
+        - {x: 18, y: 17.5}
+        - {x: 14, y: 18.5}
+        - {x: -14, y: 18.5}
+      - - {x: 12, y: 15.5}
+        - {x: 18, y: 6.5}
+        - {x: 20, y: 7.5}
+        - {x: 20, y: 11.5}
+        - {x: 19, y: 14.5}
+        - {x: 15, y: 18.5}
+        - {x: 13, y: 18.5}
+    - name: Tshirt_Dude_5
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1819
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 17.5}
+        - {x: -20, y: -17.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 15.5}
+        - {x: 16, y: 17.5}
+      - - {x: 12, y: 17.5}
+        - {x: 13, y: 13.5}
+        - {x: 18, y: 7.5}
+        - {x: 20, y: 8.5}
+        - {x: 20, y: 12.5}
+        - {x: 19, y: 15.5}
+        - {x: 17, y: 17.5}
+    - name: Tshirt_Dude_6
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 1819
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: -18.5}
+        - {x: 20.5, y: -18.5}
+        - {x: 20.5, y: -1.5}
+        - {x: 16.5, y: 12.5}
+        - {x: 14.5, y: 18.5}
+        - {x: -18.5, y: 18.5}
+        - {x: -20.5, y: 17.5}
+      - - {x: 11.5, y: 15.5}
+        - {x: 17.5, y: 6.5}
+        - {x: 20.5, y: 8.5}
+        - {x: 18.5, y: 14.5}
+        - {x: 14.5, y: 18.5}
+        - {x: 12.5, y: 18.5}
+    - name: Tshirt_Dude_7
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 1819
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 18.5}
+        - {x: -16, y: 14.5}
+        - {x: -21, y: 3.5}
+        - {x: -21, y: -18.5}
+        - {x: 21, y: -18.5}
+        - {x: 21, y: 11.5}
+        - {x: 12, y: 18.5}
+      - - {x: 13, y: 15.5}
+        - {x: 19, y: 6.5}
+        - {x: 21, y: 7.5}
+        - {x: 21, y: 11.5}
+        - {x: 20, y: 14.5}
+        - {x: 16, y: 18.5}
+        - {x: 14, y: 18.5}
+    - name: Tshirt_Dude_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1689
+        width: 43
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 17.5}
+        - {x: -21.5, y: -17.5}
+        - {x: 19.5, y: -17.5}
+        - {x: 21.5, y: -13.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 20.5, y: 17.5}
+      - - {x: -21.5, y: 12.5}
+        - {x: -21.5, y: 8.5}
+        - {x: -20.5, y: 7.5}
+        - {x: -17.5, y: 8.5}
+        - {x: -13.5, y: 17.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -20.5, y: 15.5}
+    - name: Tshirt_Dude_9
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 1688
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 18}
+        - {x: -20, y: 3}
+        - {x: -20, y: -17}
+        - {x: -18, y: -18}
+        - {x: 20, y: -18}
+        - {x: 20, y: 18}
+      - - {x: -20, y: 13}
+        - {x: -20, y: 9}
+        - {x: -19, y: 8}
+        - {x: -16, y: 9}
+        - {x: -12, y: 18}
+        - {x: -17, y: 18}
+        - {x: -19, y: 16}
+    - name: Tshirt_Dude_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1689
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17.5}
+        - {x: -20, y: 9.5}
+        - {x: -20, y: -17.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 9.5}
+        - {x: 16, y: 17.5}
+      - - {x: -20, y: 12.5}
+        - {x: -20, y: 8.5}
+        - {x: -19, y: 7.5}
+        - {x: -16, y: 8.5}
+        - {x: -12, y: 17.5}
+        - {x: -17, y: 17.5}
+        - {x: -19, y: 15.5}
+    - name: Tshirt_Dude_11
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1689
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17.5}
+        - {x: -20, y: 9.5}
+        - {x: -20, y: -17.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 9.5}
+        - {x: 16, y: 17.5}
+      - - {x: -20, y: 12.5}
+        - {x: -20, y: 8.5}
+        - {x: -19, y: 7.5}
+        - {x: -16, y: 8.5}
+        - {x: -12, y: 17.5}
+        - {x: -17, y: 17.5}
+        - {x: -19, y: 15.5}
+    - name: Tshirt_Dude_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1560
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 20}
+        - {x: -24.5, y: 20}
+        - {x: -27.5, y: 19}
+        - {x: -27.5, y: -11}
+        - {x: -20.5, y: -20}
+        - {x: 20.5, y: -20}
+        - {x: 27.5, y: -11}
+        - {x: 27.5, y: 14}
+    - name: Tshirt_Dude_13
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1560
+        width: 57
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 20}
+        - {x: -28.5, y: 11}
+        - {x: -28.5, y: -20}
+        - {x: 28.5, y: -20}
+        - {x: 28.5, y: 20}
+    - name: Tshirt_Dude_14
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1560
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 20}
+        - {x: -24.5, y: 20}
+        - {x: -27.5, y: 19}
+        - {x: -27.5, y: -11}
+        - {x: -20.5, y: -20}
+        - {x: 20.5, y: -20}
+        - {x: 27.5, y: -11}
+        - {x: 27.5, y: 14}
+    - name: Tshirt_Dude_15
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1560
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 20}
+        - {x: -22, y: 20}
+        - {x: -28, y: 14}
+        - {x: -28, y: -8}
+        - {x: -24, y: -18}
+        - {x: -20, y: -20}
+        - {x: 12, y: -20}
+        - {x: 25, y: -17}
+        - {x: 28, y: -8}
+        - {x: 28, y: 10}
+        - {x: 21, y: 19}
+    - name: Tshirt_Dude_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1435
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 18.5}
+        - {x: -27.5, y: 12.5}
+        - {x: -27.5, y: -6.5}
+        - {x: -24.5, y: -15.5}
+        - {x: -21.5, y: -18.5}
+        - {x: 25.5, y: -18.5}
+        - {x: 27.5, y: -12.5}
+        - {x: 27.5, y: 10.5}
+        - {x: 23.5, y: 18.5}
+    - name: Tshirt_Dude_17
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1432
+        width: 55
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 18.5}
+        - {x: -24.5, y: 18.5}
+        - {x: -27.5, y: 13.5}
+        - {x: -27.5, y: -11.5}
+        - {x: -21.5, y: -18.5}
+        - {x: 26.5, y: -18.5}
+        - {x: 27.5, y: -15.5}
+        - {x: 27.5, y: 14.5}
+    - name: Tshirt_Dude_18
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 1304
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 18.5}
+        - {x: -20, y: -18.5}
+        - {x: 16, y: -18.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 6.5}
+        - {x: 13, y: 18.5}
+      - - {x: 12, y: 18.5}
+        - {x: 13, y: 14.5}
+        - {x: 18, y: 8.5}
+        - {x: 20, y: 9.5}
+        - {x: 20, y: 13.5}
+        - {x: 19, y: 16.5}
+        - {x: 17, y: 18.5}
+    - name: Tshirt_Dude_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 1304
+        width: 40
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 18}
+        - {x: -20, y: 17}
+        - {x: -20, y: -18}
+        - {x: 20, y: -18}
+        - {x: 20, y: 7}
+        - {x: 18, y: 18}
+      - - {x: 13, y: 18}
+        - {x: 12, y: 16}
+        - {x: 18, y: 7}
+        - {x: 20, y: 8}
+        - {x: 20, y: 12}
+        - {x: 19, y: 15}
+        - {x: 16, y: 18}
+    - name: Tshirt_Dude_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1177
+        width: 40
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 17.5}
+        - {x: -20, y: 9.5}
+        - {x: -20, y: -17.5}
+        - {x: 20, y: -17.5}
+        - {x: 20, y: 9.5}
+        - {x: 16, y: 17.5}
+      - - {x: -20, y: 12.5}
+        - {x: -20, y: 8.5}
+        - {x: -19, y: 7.5}
+        - {x: -16, y: 8.5}
+        - {x: -12, y: 17.5}
+        - {x: -17, y: 17.5}
+        - {x: -19, y: 15.5}
+    - name: Tshirt_Dude_21
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1175
+        width: 41
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 18.5}
+        - {x: -20.5, y: 4.5}
+        - {x: -20.5, y: -18.5}
+        - {x: 20.5, y: -18.5}
+        - {x: 20.5, y: 15.5}
+        - {x: 15.5, y: 18.5}
+      - - {x: -20.5, y: 8.5}
+        - {x: -18.5, y: 6.5}
+        - {x: -15.5, y: 7.5}
+        - {x: -11.5, y: 16.5}
+        - {x: -14.5, y: 18.5}
+        - {x: -18.5, y: 14.5}
+    - name: Tshirt_Dude_22
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1048
+        width: 55
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 20}
+        - {x: -24.5, y: 20}
+        - {x: -27.5, y: 19}
+        - {x: -27.5, y: -11}
+        - {x: -20.5, y: -20}
+        - {x: 20.5, y: -20}
+        - {x: 27.5, y: -11}
+        - {x: 27.5, y: 14}
+    - name: Tshirt_Dude_23
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 1048
+        width: 55
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 18}
+        - {x: -27.5, y: 14}
+        - {x: -27.5, y: -17}
+        - {x: -25.5, y: -18}
+        - {x: 25.5, y: -18}
+        - {x: 27.5, y: -12}
+        - {x: 27.5, y: 12}
+        - {x: 24.5, y: 18}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

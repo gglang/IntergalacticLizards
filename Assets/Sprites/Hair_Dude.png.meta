@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 0159ae2b1dd47410c8de14e7ceb9dc17
+timeCreated: 1460848785
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Hair_Dude_0
+    21300002: Hair_Dude_1
+    21300004: Hair_Dude_2
+    21300006: Hair_Dude_3
+    21300008: Hair_Dude_4
+    21300010: Hair_Dude_5
+    21300012: Hair_Dude_6
+    21300014: Hair_Dude_7
+    21300016: Hair_Dude_8
+    21300018: Hair_Dude_9
+    21300020: Hair_Dude_10
+    21300022: Hair_Dude_11
+    21300024: Hair_Dude_12
+    21300026: Hair_Dude_13
+    21300028: Hair_Dude_14
+    21300030: Hair_Dude_15
+    21300032: Hair_Dude_16
+    21300034: Hair_Dude_17
+    21300036: Hair_Dude_18
+    21300038: Hair_Dude_19
+    21300040: Hair_Dude_20
+    21300042: Hair_Dude_21
+    21300044: Hair_Dude_22
+    21300046: Hair_Dude_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 72
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Hair_Dude_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1990
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 25}
+        - {x: -31, y: 12}
+        - {x: -31, y: -19}
+        - {x: -30, y: -25}
+        - {x: 31, y: -25}
+        - {x: 31, y: 25}
+    - name: Hair_Dude_1
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1988
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: 26}
+        - {x: -14, y: 26}
+        - {x: -32, y: 14}
+        - {x: -32, y: -26}
+        - {x: 32, y: -26}
+        - {x: 32, y: 12}
+        - {x: 20, y: 22}
+    - name: Hair_Dude_2
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 1990
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 24.5}
+        - {x: -31.5, y: 14.5}
+        - {x: -31.5, y: -20.5}
+        - {x: -27.5, y: -24.5}
+        - {x: 31.5, y: -24.5}
+        - {x: 31.5, y: 17.5}
+        - {x: 23.5, y: 24.5}
+    - name: Hair_Dude_3
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 1991
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 24.5}
+        - {x: -31, y: 20.5}
+        - {x: -31, y: -24.5}
+        - {x: 31, y: -24.5}
+        - {x: 31, y: 18.5}
+        - {x: 24, y: 24.5}
+    - name: Hair_Dude_4
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1850
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 33}
+        - {x: -18.5, y: 33}
+        - {x: -19.5, y: 32}
+        - {x: -33.5, y: 15}
+        - {x: -33.5, y: -23}
+        - {x: -23.5, y: -33}
+        - {x: -12.5, y: -33}
+        - {x: 5.5, y: -28}
+        - {x: 33.5, y: -10}
+        - {x: 33.5, y: 26}
+    - name: Hair_Dude_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1850
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 32}
+        - {x: -27.5, y: 32}
+        - {x: -33.5, y: 8}
+        - {x: -33.5, y: -22}
+        - {x: -23.5, y: -32}
+        - {x: -15.5, y: -32}
+        - {x: -10.5, y: -27}
+        - {x: 28.5, y: -16}
+        - {x: 33.5, y: -6}
+    - name: Hair_Dude_6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1850
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 33}
+        - {x: -17.5, y: 33}
+        - {x: -30.5, y: 26}
+        - {x: -34.5, y: 4}
+        - {x: -34.5, y: -20}
+        - {x: -23.5, y: -33}
+        - {x: -11.5, y: -33}
+        - {x: 6.5, y: -28}
+        - {x: 34.5, y: -10}
+        - {x: 34.5, y: 24}
+    - name: Hair_Dude_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1850
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 33}
+        - {x: -18.5, y: 33}
+        - {x: -19.5, y: 32}
+        - {x: -33.5, y: 15}
+        - {x: -33.5, y: -23}
+        - {x: -23.5, y: -33}
+        - {x: -12.5, y: -33}
+        - {x: 5.5, y: -28}
+        - {x: 33.5, y: -10}
+        - {x: 33.5, y: 26}
+    - name: Hair_Dude_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1721
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -34.5, y: 20.5}
+        - {x: -34.5, y: -9.5}
+        - {x: -0.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 34.5, y: -21.5}
+        - {x: 34.5, y: -6.5}
+        - {x: 32.5, y: 14.5}
+        - {x: 27.5, y: 28.5}
+        - {x: 14.5, y: 31.5}
+    - name: Hair_Dude_9
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1721
+        width: 68
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 31.5}
+        - {x: -34, y: 20.5}
+        - {x: -34, y: -9.5}
+        - {x: 0, y: -31.5}
+        - {x: 23, y: -31.5}
+        - {x: 34, y: -22.5}
+        - {x: 34, y: 2.5}
+        - {x: 33, y: 14.5}
+        - {x: 28, y: 28.5}
+        - {x: 15, y: 31.5}
+    - name: Hair_Dude_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1720
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28, y: 32}
+        - {x: -24, y: 32}
+        - {x: -34, y: 27}
+        - {x: -34, y: -7}
+        - {x: -2, y: -22}
+        - {x: 3, y: -22}
+        - {x: 6, y: -19}
+        - {x: 7, y: -15}
+        - {x: 6, y: -23}
+        - {x: 14, y: -32}
+        - {x: 25, y: -32}
+        - {x: 34, y: -27}
+        - {x: 34, y: 12}
+        - {x: 30, y: 30}
+    - name: Hair_Dude_11
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1721
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 31.5}
+        - {x: -34.5, y: 20.5}
+        - {x: -34.5, y: -9.5}
+        - {x: -0.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 34.5, y: -21.5}
+        - {x: 34.5, y: -6.5}
+        - {x: 32.5, y: 14.5}
+        - {x: 27.5, y: 28.5}
+        - {x: 14.5, y: 31.5}
+    - name: Hair_Dude_12
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1588
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 34}
+        - {x: -31, y: 27}
+        - {x: -31, y: -24}
+        - {x: -27, y: -34}
+        - {x: 18, y: -34}
+        - {x: 31, y: -29}
+        - {x: 31, y: 22}
+        - {x: 25, y: 34}
+    - name: Hair_Dude_13
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1588
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 34}
+        - {x: -23, y: 31}
+        - {x: -32, y: 18}
+        - {x: -32, y: -12}
+        - {x: -30, y: -30}
+        - {x: -27, y: -34}
+        - {x: 21, y: -34}
+        - {x: 32, y: -32}
+        - {x: 32, y: 16}
+        - {x: 25, y: 34}
+    - name: Hair_Dude_14
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 1588
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 34}
+        - {x: -31, y: 27}
+        - {x: -31, y: -24}
+        - {x: -27, y: -34}
+        - {x: 18, y: -34}
+        - {x: 31, y: -29}
+        - {x: 31, y: 22}
+        - {x: 25, y: 34}
+    - name: Hair_Dude_15
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 1588
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 34}
+        - {x: -31, y: 27}
+        - {x: -31, y: -24}
+        - {x: -27, y: -34}
+        - {x: 18, y: -34}
+        - {x: 31, y: -29}
+        - {x: 31, y: 22}
+        - {x: 25, y: 34}
+    - name: Hair_Dude_16
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 1479
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 25}
+        - {x: -32, y: 12}
+        - {x: -32, y: -11}
+        - {x: -28, y: -25}
+        - {x: 32, y: -25}
+        - {x: 32, y: 14}
+        - {x: 24, y: 25}
+    - name: Hair_Dude_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1476
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 10}
+        - {x: 18, y: 26}
+        - {x: -15, y: 26}
+        - {x: -32, y: 20}
+        - {x: -32, y: -18}
+        - {x: -28, y: -26}
+        - {x: 30, y: -26}
+        - {x: 32, y: -17}
+        - {x: 32, y: 4}
+    - name: Hair_Dude_18
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1338
+        width: 69
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 31.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -34.5, y: 19.5}
+        - {x: -34.5, y: -27.5}
+        - {x: -27.5, y: -31.5}
+        - {x: 2.5, y: -31.5}
+        - {x: 29.5, y: -18.5}
+        - {x: 34.5, y: -5.5}
+        - {x: 34.5, y: 22.5}
+    - name: Hair_Dude_19
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1334
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: 32}
+        - {x: -27.5, y: 32}
+        - {x: -33.5, y: 8}
+        - {x: -33.5, y: -22}
+        - {x: -23.5, y: -32}
+        - {x: -15.5, y: -32}
+        - {x: -10.5, y: -27}
+        - {x: 28.5, y: -16}
+        - {x: 33.5, y: -6}
+    - name: Hair_Dude_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 1208
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: 32.5}
+        - {x: -28.5, y: 32.5}
+        - {x: -31.5, y: 31.5}
+        - {x: -33.5, y: 23.5}
+        - {x: -33.5, y: -9.5}
+        - {x: -27.5, y: -14.5}
+        - {x: 3.5, y: -23.5}
+        - {x: 5.5, y: -18.5}
+        - {x: 6.5, y: -14.5}
+        - {x: 6.5, y: -16.5}
+        - {x: 7.5, y: -21.5}
+        - {x: 10.5, y: -27.5}
+        - {x: 14.5, y: -32.5}
+        - {x: 21.5, y: -32.5}
+        - {x: 33.5, y: -23.5}
+        - {x: 33.5, y: 11.5}
+        - {x: 29.5, y: 30.5}
+    - name: Hair_Dude_21
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 1206
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 33}
+        - {x: -34.5, y: 22}
+        - {x: -34.5, y: -7}
+        - {x: -28.5, y: -15}
+        - {x: 2.5, y: -25}
+        - {x: 4.5, y: -20}
+        - {x: 5.5, y: -16}
+        - {x: 5.5, y: -18}
+        - {x: 6.5, y: -23}
+        - {x: 9.5, y: -29}
+        - {x: 14.5, y: -33}
+        - {x: 20.5, y: -33}
+        - {x: 34.5, y: -22}
+        - {x: 34.5, y: 18}
+        - {x: 15.5, y: 33}
+    - name: Hair_Dude_22
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1076
+        width: 62
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 34}
+        - {x: -31, y: 27}
+        - {x: -31, y: -24}
+        - {x: -27, y: -34}
+        - {x: 18, y: -34}
+        - {x: 31, y: -29}
+        - {x: 31, y: 22}
+        - {x: 25, y: 34}
+    - name: Hair_Dude_23
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1072
+        width: 64
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 34}
+        - {x: -23, y: 31}
+        - {x: -32, y: 18}
+        - {x: -32, y: -12}
+        - {x: -30, y: -30}
+        - {x: -27, y: -34}
+        - {x: 21, y: -34}
+        - {x: 32, y: -32}
+        - {x: 32, y: 16}
+        - {x: 25, y: 34}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
