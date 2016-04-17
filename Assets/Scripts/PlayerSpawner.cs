@@ -44,6 +44,10 @@ public class PlayerSpawner : MonoBehaviour {
 		PlayerChar controls = playerObject.GetComponent<PlayerChar>();
 		controls.horizontalAxisName = "Player "+(playerIndex+1)+" Horizontal";
 		controls.verticalAxisName = "Player "+(playerIndex+1)+" Vertical";
-		controls.attackButtonName = "Player "+(playerIndex+1)+" Attack";
+		#if UNITY_EDITOR || UNITY_STANDALONE_OSX
+			controls.attackButtonName = "Player "+(playerIndex+1)+" Attack";
+		#elif UNITY_STANDALONE_WIN	
+			controls.attackButtonName = "Windows Player "+(playerIndex+1)+" Attack";
+		#endif
 	}
 }

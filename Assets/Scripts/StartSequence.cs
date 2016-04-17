@@ -41,8 +41,13 @@ public class StartSequence : MonoBehaviour {
 
 		for(int i = 0; i < controllerCount; i++) {
 			// Assign control names... blah
-			playerControlMappings[i,0] = "Player "+(i+1)+" Attack";
-			playerControlMappings[i,1] = "Player "+(i+1)+" Attack 2";
+			#if UNITY_EDITOR || UNITY_STANDALONE_OSX
+				playerControlMappings[i,0] = "Player "+(i+1)+" Attack";
+				playerControlMappings[i,1] = "Player "+(i+1)+" Attack 2";
+			#elif UNITY_STANDALONE_WIN
+				playerControlMappings[i,0] = "Windows Player "+(i+1)+" Attack";
+				playerControlMappings[i,1] = "Windows Player "+(i+1)+" Attack 2";
+			#endif
 		}
 
 		int reptilePlayer = UnityEngine.Random.Range(0, controllerCount);
