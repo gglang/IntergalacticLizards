@@ -39,25 +39,13 @@ public class StartSequence : MonoBehaviour {
 		controllerCount = Input.GetJoystickNames().Length;
 		playerControlMappings = new string[controllerCount, 2];
 
-		for(int i = 0; i < controllerCount; i++) {
-			// Assign control names... blah
-			#if UNITY_EDITOR || UNITY_STANDALONE_OSX
-				playerControlMappings[i,0] = "Player "+(i+1)+" Attack";
-				playerControlMappings[i,1] = "Player "+(i+1)+" Attack 2";
-			#elif UNITY_STANDALONE_WIN
-				GameObject.Find("Bitch").GetComponent<UnityEngine.UI.Image>().enabled = true;
-				playerControlMappings[i,0] = "Windows Player "+(i+1)+" Attack";
-				playerControlMappings[i,1] = "Windows Player "+(i+1)+" Attack 2";
-			#endif
-		}
-
 		float randomValue = UnityEngine.Random.value;
 		hunterPlayerIndex = (int) Mathf.Lerp(0f, controllerCount, randomValue);
-		Debug.Log("PLAYER NUMBER: "+hunterPlayerIndex);
+//		Debug.Log("PLAYER NUMBER: "+hunterPlayerIndex);
 		if(hunterPlayerIndex > controllerCount-1) {
 			hunterPlayerIndex = controllerCount-1;
 		}
-		Debug.Log("COUNT: "+controllerCount+" reptile: "+hunterPlayerIndex);
+//		Debug.Log("COUNT: "+controllerCount+" reptile: "+hunterPlayerIndex);
 	}
 	
 	void Update () {

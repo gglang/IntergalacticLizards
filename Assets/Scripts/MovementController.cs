@@ -68,7 +68,7 @@ public class MovementController : MonoBehaviour, IAttackable {
 		}
 
 		if(mover.ReachedDestination && moved) {
-			Debug.Log("SWITCHING");
+//			Debug.Log("SWITCHING");
 			targetIndex = (targetIndex + 1)%targets.Count;
 			moved = false;
 			mover.StopMove();

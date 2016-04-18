@@ -78,9 +78,9 @@ public class MonsterNavMove : MonoBehaviour {
 	}
 
 	public void StopMove() {
-		Debug.Log("TRYING TO STOP");
+//		Debug.Log("TRYING TO STOP");
 		if(!stopped) {
-			Debug.Log("STOPPING");
+//			Debug.Log("STOPPING");
 //			if(animController != null && (DirectionalMoveAnim || RotationalMoveAnim)) {
 //				animController.SetBool ("Moving", false);// TODO A helper class should handle the setting of animations so that the mover doesn't need to know about the Animator
 //			}

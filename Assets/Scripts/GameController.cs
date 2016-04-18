@@ -35,22 +35,22 @@ public class GameController : MonoBehaviour {
 		if(!spawner.DoneSpawning()) {
 			return;
 		}
-		Debug.Log("Checking for game end");
+//		Debug.Log("Checking for game end");
 
 		InitComplete = true;
 
 		this.GetLists();
-		Debug.Log("civ: "+civilians.Count+" liz: "+lizards.Count+" hunt: "+hunters.Count);
+//		Debug.Log("civ: "+civilians.Count+" liz: "+lizards.Count+" hunt: "+hunters.Count);
 
 
 		if(civilians.Count == 0) {
-			Debug.Log("NO CIVS");
+//			Debug.Log("NO CIVS");
 			TriggerLizardWin();
 		} else if(hunters.Count == 0) {
-			Debug.Log("NO HUNTS");
+//			Debug.Log("NO HUNTS");
 			TriggerLizardWin();
 		} else if(lizards.Count == 0) {
-			Debug.Log("NO LIZ");
+//			Debug.Log("NO LIZ");
 			TriggerHunterWin();
 		}
 	}

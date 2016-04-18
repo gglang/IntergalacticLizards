@@ -7,12 +7,12 @@ using System.Collections;
 /// </summary>
 public class TrackedByGameController : MonoBehaviour {
 	void Start () {
-		Debug.Log("I WAS BORN: "+this.gameObject.name);
+//		Debug.Log("I WAS BORN: "+this.gameObject.name);
 		GameController.Instance.BirthInTheFamily(this.gameObject);
 	}
 
 	void OnDestroy() {
-		Debug.Log("IM MELTING");
+//		Debug.Log("IM MELTING");
 		GameController.Instance.DeathInTheFamily(this.gameObject);
 	}
 }

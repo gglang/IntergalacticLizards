@@ -42,7 +42,7 @@ public class PlayerSpawner : MonoBehaviour {
 			}
 
 			playerNumberSpawning++;
-			Debug.Log("SPAWNED: "+playerNumberSpawning);
+//			Debug.Log("SPAWNED: "+playerNumberSpawning);
 		}
 //		}
 
