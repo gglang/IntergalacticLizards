@@ -18,26 +18,26 @@ public class PlayerChar : MonoBehaviour, IAttackable {
 
 	public virtual void Start(){
 		currentWounds = maxWounds;
-		sr = gameObject.GetComponent<SpriteRenderer>();
+	//	sr = gameObject.GetComponent<SpriteRenderer>();
 		aus = gameObject.GetComponent<AudioSource>();
-		int colorroll = Random.Range(0,5);
-		switch(colorroll){
-				case 0:
-					sr.color = Color.white;
-					break;
-				case 1:
-					sr.color = Color.blue;
-					break;
-				case 2:
-					sr.color = Color.green;
-					break;
-				case 3:
-					sr.color = Color.red;
-					break;
-				case 4:
-					sr.color = Color.yellow;
-					break;
-			}
+//		int colorroll = Random.Range(0,5);
+//		switch(colorroll){
+//				case 0:
+//					sr.color = Color.white;
+//					break;
+//				case 1:
+//					sr.color = Color.blue;
+//					break;
+//				case 2:
+//					sr.color = Color.green;
+//					break;
+//				case 3:
+//					sr.color = Color.red;
+//					break;
+//				case 4:
+//					sr.color = Color.yellow;
+//					break;
+//			}
 	}
 
 	public virtual void ProcessMovement(){
