@@ -60,7 +60,7 @@ public class GameController : MonoBehaviour {
 		if(!gameover) {
 			GameOverScreen.SetActive(true);
 			UnityEngine.UI.Text endText = GameOverScreen.GetComponentInChildren<UnityEngine.UI.Text>();
-			endText.text = "DAVID ICKE SYMPATHIZERS WIN!";
+			endText.text = "MONSTER HUNTER WINS! INFOWARS.COM";
 			gameover = true;
 		}
 	}
